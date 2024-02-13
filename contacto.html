@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto - Villamil y asociados</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="imagenes-barberia/logo.png" alt="logo empresa"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido">
+            
+            <label for="correoelectronico">Correo Electronico</label>
+            <input type="text" id="correoelectronico">
+            
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" cols="70" rows="10"></textarea>
+
+            <div >
+                <p>¿Como le gustaria que lo contactemos?</p>
+
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contacto" value="email" id="radio-email">
+
+                <label for="radio-telefono">Telefono</label>
+                <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+
+                <label for="radio-whatsapp">WhatsApp</label>
+                <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">
+            </div>
+
+            <label for=""><input type="checkbox">¿Le gustaria recibir novedades de la barberia Alura?</label>
+
+            <input type="submit" value="Enviar Formulario">
+        </form>
+    </main>
+    <footer>
+        <img src="imagenes-barberia/logo-blanco.png" alt="logo color blanco">
+        <p class="copyright">© Copyright VillamilAbogados - 2024</p>
+    </footer>
+</body>
+</html>
