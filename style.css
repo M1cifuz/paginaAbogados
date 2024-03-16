@@ -5,8 +5,7 @@ body{
   font-style: normal;
 }
 header {
-    background-color: #113839;
-    padding: 20px 0;
+    background-color: #747264;
 }
 .caja {
     width: 940px;
@@ -22,6 +21,7 @@ nav {
     top: 110px;
     right: 0;
 }
+
 nav li {
     display: inline;
     margin: 0 0 0 15px;
@@ -38,6 +38,7 @@ nav a:hover {
     text-decoration: underline;
 }
 .productos {
+    list-style-type: none;
     width: 940px;
     margin: 0 auto;
     padding: 50px;
@@ -47,11 +48,13 @@ nav a:hover {
     height: 60px
 }
 .productos li {
+    margin-bottom: 20px;
+    position: relative;
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 45px 12px ;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -94,7 +97,7 @@ footer img{
     margin: 20px;
 }
 form {
-    margin: 40px 0;
+    margin: 40px 40px;
 }
 form label, form legend {
     display: block;
@@ -224,7 +227,24 @@ td, th {
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
-    .lista-diferenciales, .imagen-diferenciales{
-        width: 100%;
-    }
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 90%;
+    background-color: #747264;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.submenu  p{
+    display: block;
+    padding: 6px;
+    color: #FFBD59;
+    text-decoration: none;
+    cursor: pointer;
+}
+.productos li:hover .submenu {
+    display: block;
 }
