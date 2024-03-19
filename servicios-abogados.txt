@@ -1,0 +1,16 @@
+https://M1cifuz.github.io/paginaAbogados.git
+https://github.com/M1cifuz/paginaAbogados.git
+
+Verifica tu rama actual: Asegúrate de estar en la rama correcta en tu repositorio local. Puedes usar el comando git branch para ver todas las ramas y git checkout <nombre_de_rama> para cambiar a la rama deseada.
+
+Agrega tus cambios: Si tienes cambios pendientes, asegúrate de agregarlos al área de preparación con git add . y luego confírmalos con git commit -m "Mensaje de confirmación".
+
+Sincroniza con el repositorio remoto: Antes de subir, es buena práctica sincronizar tu rama local con la rama remota. Puedes hacerlo con git fetch origin <nombre_de_rama>.
+
+Sube a la rama remota: Utiliza el comando git push origin <nombre_de_rama> para subir tus cambios a la rama remota en GitHub. Por ejemplo, si deseas subir a una rama llamada “feature”, ejecuta:
+
+git push origin feature
+
+Esto enviará tus cambios al repositorio remoto en la rama “feature”.
+
+Verifica en GitHub: Ve a tu repositorio en GitHub y verifica que los cambios se hayan reflejado correctamente en la rama deseada.
