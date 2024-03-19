@@ -187,7 +187,7 @@ td, th {
 }
 .diferenciales{
     padding: 3em 0;
-    background-color: #888888;
+    background: linear-gradient(#888888, #fefefe);
 }
 .contenido-diferenciales{
     width: 640px;
